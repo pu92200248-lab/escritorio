@@ -6,7 +6,7 @@ class InicioScene extends Phaser.Scene {
     }
 
     preload(){
-        this.load.image("fondoInicio","..fondo.jpg");
+        this.load.image("fondoInicio","fondo.jpg");
     }
 
     create(){
@@ -51,7 +51,7 @@ class TriviaScene extends Phaser.Scene {
     }
 
     preload(){
-        this.load.image("fondoJuego","..fondo1.png");
+        this.load.image("fondoJuego","fondo1.png");
     }
 
     create(){
@@ -317,5 +317,6 @@ if ("serviceWorker" in navigator) {
       });
 
   });
+
 
 }
